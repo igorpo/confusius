@@ -1,0 +1,62 @@
+[
+    {
+        "option-1": "apple",
+        "option-1-weight": 70,
+        "option-2": "orange",
+        "option-2-weight": 30
+    },
+    {
+        "option-1": "apple",
+        "option-1-weight": 45,
+        "option-2": "pear",
+        "option-2-weight": 55
+    },
+    {
+        "option-1": "apple",
+        "option-1-weight": 35,
+        "option-2": "grape",
+        "option-2-weight": 65
+    },
+    {
+        "option-1": "apple",
+        "option-1-weight": 42,
+        "option-2": "banana",
+        "option-2-weight": 58
+    },
+    {
+        "option-1": "orange",
+        "option-1-weight": 36,
+        "option-2": "pear",
+        "option-2-weight": 64
+    },
+    {
+        "option-1": "orange",
+        "option-1-weight": 80,
+        "option-2": "grape",
+        "option-2-weight": 20
+    },
+    {
+        "option-1": "orange",
+        "option-1-weight": 20,
+        "option-2": "banana",
+        "option-2-weight": 80
+    },
+    {
+        "option-1": "pear",
+        "option-1-weight": 50,
+        "option-2": "grape",
+        "option-2-weight": 50
+    },
+    {
+        "option-1": "pear",
+        "option-1-weight": 35,
+        "option-2": "banana",
+        "option-2-weight": 65
+    },
+    {
+        "option-1": "grape",
+        "option-1-weight": 40,
+        "option-2": "banana",
+        "option-2-weight": 60
+    }
+]
