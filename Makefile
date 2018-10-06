@@ -1,8 +1,5 @@
 build:
-	go build .
+	docker build -t confusius . -f Dockerfile
 
-clean: 
-	rm ./confusius 
-
-run: build 
-	$(shell ./confucius)
+run: 
+	docker run -it confusius

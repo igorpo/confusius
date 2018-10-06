@@ -7,6 +7,7 @@ import (
 	"os"
 
 	"github.com/igorpo/confusius/models"
+	"github.com/igorpo/confusius/simulation"
 )
 
 func main() {
@@ -15,7 +16,10 @@ func main() {
 		fmt.Printf("error reading evaluations file: %v\n", err)
 		os.Exit(1)
 	}
-	fmt.Println(choices)
+
+	simulator := simulation.New(100, choices)
+	simulator.Simulate()
+	fmt.Println(simulator.Top(5))
 }
 
 func readEvaluations(filename string) (models.Choices, error) {

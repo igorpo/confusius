@@ -5,8 +5,12 @@ type Choices []Choice
 
 // Choice embodies the weights and options of one binary choice, that is, two options are weighted against each other
 type Choice struct {
-	Option1       string `json:"option-1"`
-	Option2       string `json:"option-2"`
-	Option1Weight int    `json:"option-1-weight"`
-	Option2Weight int    `json:"option-2-weight"`
+	FirstOption  Option `json:"option_1"`
+	SecondOption Option `json:"option_2"`
+}
+
+// Option encodes one option
+type Option struct {
+	Name   string `json:"name"`
+	Weight int    `json:"weight"`
 }

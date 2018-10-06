@@ -1,62 +1,102 @@
 [
     {
-        "option-1": "apple",
-        "option-1-weight": 70,
-        "option-2": "orange",
-        "option-2-weight": 30
+        "option_1": {
+            "name": "apple",
+            "weight": 70
+        },
+        "option_2": {
+            "name": "orange",
+            "weight": 30
+        }
     },
     {
-        "option-1": "apple",
-        "option-1-weight": 45,
-        "option-2": "pear",
-        "option-2-weight": 55
+        "option_1": {
+            "name": "apple",
+            "weight": 45
+        },
+        "option_2": {
+            "name": "pear",
+            "weight": 55
+        }
     },
     {
-        "option-1": "apple",
-        "option-1-weight": 35,
-        "option-2": "grape",
-        "option-2-weight": 65
+        "option_1": {
+            "name": "apple",
+            "weight": 35
+        },
+        "option_2": {
+            "name": "grape",
+            "weight": 65
+        }
     },
     {
-        "option-1": "apple",
-        "option-1-weight": 42,
-        "option-2": "banana",
-        "option-2-weight": 58
+        "option_1": {
+            "name": "apple",
+            "weight": 42
+        },
+        "option_2": {
+            "name": "banana",
+            "weight": 58
+        }
     },
     {
-        "option-1": "orange",
-        "option-1-weight": 36,
-        "option-2": "pear",
-        "option-2-weight": 64
+        "option_1": {
+            "name": "orange",
+            "weight": 36
+        },
+        "option_2": {
+            "name": "pear",
+            "weight": 64
+        }
     },
     {
-        "option-1": "orange",
-        "option-1-weight": 80,
-        "option-2": "grape",
-        "option-2-weight": 20
+        "option_1": {
+            "name": "orange",
+            "weight": 80
+        },
+         "option_2": {
+            "name": "grape",
+            "weight": 20
+        }
     },
     {
-        "option-1": "orange",
-        "option-1-weight": 20,
-        "option-2": "banana",
-        "option-2-weight": 80
+        "option_1": {
+            "name": "orange",
+            "weight": 20
+        },
+        "option_2": {
+            "name": "banana",
+            "weight": 80
+        }
     },
     {
-        "option-1": "pear",
-        "option-1-weight": 50,
-        "option-2": "grape",
-        "option-2-weight": 50
+        "option_1": {
+            "name": "pear",
+            "weight": 50
+        },
+        "option_2": {
+            "name": "grape",
+            "weight": 70
+        }
     },
     {
-        "option-1": "pear",
-        "option-1-weight": 35,
-        "option-2": "banana",
-        "option-2-weight": 65
+        "option_1": {
+            "name": "pear",
+            "weight": 35
+        },
+        "option_2": {
+            "name": "banana",
+            "weight": 65
+        }
     },
     {
-        "option-1": "grape",
-        "option-1-weight": 40,
-        "option-2": "banana",
-        "option-2-weight": 60
+        "option_1": {
+            "name": "grape",
+            "weight": 40
+        },
+        "option_2": {
+            "name": "banana",
+            "weight": 60
+        }
     }
 ]
